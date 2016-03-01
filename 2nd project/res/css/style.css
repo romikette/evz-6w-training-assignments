@@ -1,0 +1,139 @@
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[type="text"] {
+  background-color: rgba(249,249,249,0);
+  border: none;
+  font-size: 15px;
+  outline: none;
+  font-weight: 400;
+}
+[class*="col-"] {
+  /*margin: 2% auto;*/
+    float: left;
+    /*padding: 15px;*/
+    /*border: 1px solid red;*/
+    /*outline: 1px solid lightgray;*/
+}
+.container {
+  width: 30%;
+  margin: 10% auto;
+  background-color: rgba(249,249,249,0.8);
+  border: 1px solid lightgray;
+}
+.full-width {
+  width: 90%;
+}
+.borderRadius {
+  border-radius: 3px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.paddings {
+  padding: 3%;
+  box-sizing: border-box;
+}
+.moneyBox {
+  padding: 10.5%;
+  box-sizing: border-box;
+  font-size: 35px;
+}
+.moneySelect {
+  padding: 6%;
+  box-sizing: border-box;
+  background-color: rgba(249,249,249,0.8);
+}
+.moneySelect:hover, .moneySelect:active, .moneySelect:focus {
+  background-color: #F2EDC0;
+}
+body {
+  background-image: url('../img/bg.jpg');
+  font-family: 'Work Sans', sans-serif;
+}
+.bg-purple {
+  background-color: #c3b7d6;
+  background-size: 1px 1px;
+}
+.border-b {
+  border-bottom: 1px solid lightgray;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: none;
+  border-bottom: 7px solid lightgray  ;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.relative {
+  position: relative;
+}
+.gray-ish {
+  color: #eeeeee;
+}
+.dark-gray-ish {
+  color: #9a9a9a;
+}
+.bold {
+  font-weight: 700;
+}
+.txt-size-1 {
+  font-size: 30px;
+}
+.txt-size-2 {
+  font-size: 15px;
+}
+.border-tb {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.border-lr {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.border-r {
+  border-right: 1px solid lightgray;
+}
+.checkMe {
+  -webkit-appearance: inherit;
+  background-color: white;
+  margin: 0;
+  margin-right: 1%;
+  border-radius: 0;
+  border: 1px solid lightgray;
+  padding: 2%;
+  color: black;
+  outline: none;
+}
+.submitBtn {
+  color: white;
+  border: 0;
+  background-color: #86c46d;
+  border-radius: 4px;
+  padding: 6% 15%;
+}
