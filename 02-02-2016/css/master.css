@@ -1,0 +1,17 @@
+.outer {
+  position: relative;
+  height: 300px;
+  background-color: yellow;
+}
+.inner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: green;
+  width: 100%;
+}
+.continut {
+  width: 100%;
+  text-align: center;
+}
