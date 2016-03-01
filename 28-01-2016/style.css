@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("res/photo-1442589031151-61d5645469d7.jpg");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+.top-opac {
+  background-color: rgba(0,0,0,0.4);
+  height: 20vh;
+}
+.left-opac, .right-opac {
+  background-color: rgba(0,0,0,0.4);
+  width: 20%;
+  height: 60vh;
+  float: left;
+}
+.bottom-opac {
+  clear:both;
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.content {
+  width: 60%;
+  height: 60vh;
+  float: left;
+  -webkit-box-shadow: 0px 0px 46px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 46px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 46px 1px rgba(0,0,0,0.75);
+  /*background-image: url("res/photo-1442589031151-61d5645469d7.jpg");*/
+  background-size: cover;
+}
+.content .title {
+  width: 60%;
+  float: left;
+}
+.wrapper {
+  width: 60%;
+  margin: 5% 0 0 7%;
+}
+.content .forms {
+  width: 40%;
+  background-color: #fff;
+  height: 100%;
+  float: left;
+}
+/*text styles */
+.txt1 {
+  color: white;
+}
+.txt2 {
+  color: #7F898B;
+}
+.txt-large {
+  font-size: 50px;
+}
+.txt-medium {
+  font-size: 30px;
+  color: lightgray;
+}
+.rounded {
+  border-radius: 50%;
+  width: 25%;
+  -webkit-transform: rotate(0deg);
+  border: 1px dotted #fff;
+  transition: all 3s;
+}
+.rounded:hover {
+  -webkit-transform: rotate(3600deg);
+  border: 100px dotted #685743;
+  width: 1%
+}
+.user-pic {
+  margin: 15% 0;
+}
+.input {
+  background: #fff;
+  border: 1px solid #D0D0D0;
+  padding: 2.5% 7%;
+  border-radius: 2px;
+  margin: 0 0 2% 0;
+}
+.input::-webkit-input-placeholder {
+  /*font-size: 15px;*/
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+.forms {
+  text-align: center;
+}
+.btn {
+  padding: 2.5% 21%;
+  border: 0;
+  background: #2E2821;
+  color: #fff;
+}
+.forgotten {
+  margin-top: 24%;
+}
+a {
+  color: #39A6E9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #39A6E9;
+}
+a:visited {
+  text-decoration: none;
+  color: #39A6E9;
+}
+a:active {
+  text-decoration: none;
+  color: #39A6E9;
+}
+a:focus {
+  text-decoration: none;
+  color:#39A6E9;
+}
