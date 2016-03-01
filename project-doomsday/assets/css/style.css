@@ -1,0 +1,309 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.navi .wrapper:nth-child(1) {
+  background-color: #1c1c1c;
+  color: #9f9f9f;
+  font-size: 14px;
+  line-height: 36px;
+}
+.navi .wrapper:nth-child(1) ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.navi .wrapper:nth-child(1) ul li {
+  margin-right: 2%;
+  display: inline;
+}
+.navi .wrapper:nth-child(1) ul li a {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+.navi .wrapper:nth-child(1) ul li a:hover {
+  color: #d2d2d2;
+}
+.navi .wrapper:nth-child(1) i {
+  font-size: 20px;
+  margin-right: 3%;
+}
+.navi .wrapper:nth-child(1) i:hover {
+  color: #d2d2d2;
+}
+.navi .wrapper:nth-child(2) {
+  background-color: #ffffff;
+}
+.navi .wrapper:nth-child(2) img {
+  width: 100%;
+  padding: 1% 0;
+}
+.navi .wrapper:nth-child(2) ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  padding: 2.5%;
+}
+.navi .wrapper:nth-child(2) ul li {
+  display: inline;
+}
+.navi .wrapper:nth-child(2) ul li a {
+  text-decoration: none;
+  color: #9f9f9f;
+  border: 2px solid transparent;
+  padding: 1% 2%;
+}
+.navi .wrapper:nth-child(2) ul li a:hover,
+.navi .wrapper:nth-child(2) ul li a:active,
+.navi .wrapper:nth-child(2) ul li a:focus,
+.navi .wrapper:nth-child(2) ul li .sign-up {
+  color: #000;
+  border: 2px solid black;
+}
+.pull-right {
+  float: right;
+}
+.bg-black {
+  background: #000;
+}
+.bg-white {
+  background: #fff;
+}
+.bg-green {
+  background: #87bd65;
+}
+.bg-dark {
+  background: #252625;
+}
+.main {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .container-fluid {
+  font-size: 14px;
+  font-color: #000000;
+}
+.main .tag-box {
+  padding: 2% 4%;
+  border: 1px solid black;
+}
+.main .txt1 {
+  font-size: 14px;
+  margin: 0;
+}
+.main .txt2 {
+  font-size: 24px;
+  margin: 0;
+}
+.main .txt3 {
+  font-size: 10px;
+}
+.main .push-down {
+  margin-bottom: 50px;
+}
+.main .bold {
+  font-weight: 700;
+}
+.main .padding-head {
+  padding: 12% 0;
+}
+.main .padding-head-mid {
+  padding: 8% 2.5%;
+  padding-bottom: 2%;
+}
+.main .button1 {
+  font-size: 14px;
+  padding: 4% 6%;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
+.main .button1:hover {
+  color: #ffffff;
+}
+.main .patrate {
+  line-height: 7px;
+}
+.main .patrate .txt99 {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.main .patrate .i-green {
+  color: #3eae2c;
+}
+.main .patrate .i-red {
+  color: #e1251d;
+}
+.main .patrate .i-blue {
+  color: #005db9;
+}
+.main .patrate .i-purple {
+  color: #73308a;
+}
+.main .patrate img {
+  width: 27%;
+}
+.main .patrate i {
+  font-size: 8px;
+}
+.main .patrate span {
+  font-size: 7px;
+  color: #fff;
+  margin-left: 2px;
+}
+.main .height400px {
+  height: 400px;
+}
+.main .height160px {
+  height: 200px;
+}
+.main .height200px {
+  height: 200px;
+}
+.main .position1 {
+  padding-top: 200px;
+}
+.main .full-height {
+  height: 100%;
+}
+.main .full-width {
+  width: 100%;
+}
+.main .no-padding {
+  padding: 0;
+}
+.main .featured {
+  background-image: url('http://img1.mmo.mmo4arab.com/lol/teamfight/Screen04.jpg');
+  background-size: cover;
+}
+.main .relative {
+  position: relative;
+}
+.main .dates {
+  width: 50%;
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  padding: 3% 4%;
+  color: #fff;
+}
+.main .padding-boxes {
+  padding: 12% 10%;
+}
+.main .padding-boxes2 {
+  padding: 5%;
+}
+.main .hr {
+  width: 100px;
+  height: 2px;
+  border: 0;
+  background-color: #000;
+}
+.main .txt4 {
+  font-size: 16px;
+}
+.main .txt5 {
+  font-size: 13px;
+  color: gray;
+}
+.main .txt6 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.main .playico {
+  padding: 25% 42%;
+  color: #fff;
+}
+.main .playico:hover {
+  color: #87BD65;
+}
+.main .tag-box2 {
+  padding: 3% 9%;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 6%;
+}
+.main .padding-green {
+  padding: 1.3%;
+}
+.main .margin-left-zero {
+  margin-left: 0;
+}
+.footer .txt7 {
+  font-size: 18px;
+}
+.footer .txt8 {
+  font-size: 16px;
+}
+.footer .text-white {
+  color: #fff;
+}
+.footer .padding-green {
+  padding: 3%;
+}
+.footer .icons-top {
+  padding: 7% 8%;
+  position: absolute;
+  top: -37px;
+  left: 38%;
+  border-radius: 50%;
+}
+.footer .hr-f {
+  border: none;
+  height: 2px;
+  background-color: gray;
+  width: 100px;
+  margin-left: 0;
+}
+.footer .hr-f2 {
+  border: none;
+  height: 1px;
+  background-color: gray;
+  width: 100%;
+  margin-left: 0;
+}
+.footer .text-green {
+  color: #87bd65;
+}
+.footer .width-50 {
+  width: 50%;
+}
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 15px;
+  font-color: #474947;
+}
+.footer ul i {
+  font-size: 18px;
+  margin-right: 2%;
+}
+.footer ul li {
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+}
+.footer .border-bottom {
+  border-bottom: 1px solid gray;
+}
+.footer .footer-ul li {
+  display: inline;
+  padding: 0;
+  margin-right: 3%;
+}
+.footer .footer-ul li a {
+  color: gray;
+}
+.footer .footer-ul li a:hover {
+  color: #fff;
+}
+.old-green {
+  background-color: darkgreen;
+}
+.new-green {
+  background-color: green;
+}
+.margin-js {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
