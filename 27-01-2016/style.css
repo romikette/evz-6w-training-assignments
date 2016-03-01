@@ -1,0 +1,104 @@
+
+body {
+  background-color: #ADDBA4;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+}
+h1 {
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+}
+.top {
+  line-height: 30px;
+}
+.action {
+  font-size: 20px;
+  line-height: 30px;
+}
+.large {
+  font-size: 30px;
+}
+.container {
+}
+.window {
+  margin: 10% auto;
+  width: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 20px #888888;
+}
+.left {
+  float: left;
+  margin: 2%;
+}
+.right {
+  margin: 2%;
+  float: right;
+}
+.content {
+  clear: both;
+  border-top: 1px solid #ECECEC;
+  overflow:hidden;
+}
+.prod-img {
+  border-right: 1px solid #ECECEC;
+  width: 39%;
+  float: left;
+}
+.specs {
+  width: 60%;
+  float: left;
+}
+.ar-title {
+  margin: 10% 1% 1% 10%;
+}
+.ar-title h1 {
+  color: #4E5256;
+  margin-bottom: 1%;
+}
+.ar-title h4 {
+  color: #A8A6A9;
+  margin-top: 0;
+}
+.ar-price {
+  margin: 2% 1% 2% 10%;
+  color: #4E5256;
+}
+.ar-desc {
+  margin: 2% 1% 2% 10%;
+  width: 75%;
+}
+.ar-desc h4 {
+  color: #A8A6A9;
+}
+.ar-actions {
+  margin: 2% 1% 2% 10%;
+}
+.btn {
+  background: #fff;
+  border: 1px solid #DADADA;
+  padding: 5px 30px;
+  font-weight: 400;
+  color: #AFA8AC;
+  margin-right: 2%;
+}
+a {
+  color: #797788;
+  font-weight: 100;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
